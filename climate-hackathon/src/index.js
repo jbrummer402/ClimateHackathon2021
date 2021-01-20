@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CompanyProfile from './pages/CompanyProfile';
+import styles from './components/layout.modules.css';
 
 ReactDOM.render(
   <React.StrictMode>
