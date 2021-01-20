@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import yard from './yard.jfif';
 import './App.css';
+
+function Yard(){
+
+  return(
+    <div>
+      <img src={yard} alt="Hoboken Yard Photo" className="yard"/>
+      <div className="large">C4B</div>
+      <div className="small">Climate For Business</div>
+    </div>
+      
+    
+      
+  )
+}
+
+function LandingPage(){
+
+  return (
+    <div>
+      <Yard></Yard>
+      <div className="button-container">
+        <button type="button" className="button">Business Owner Sign Up</button>
+      </div>
+      
+      <div className="button-container">
+        <button type="button"className="button">Business Owner Sign In</button>
+      </div>
+      
+    </div>
+  )
+ 
+
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <LandingPage></LandingPage>
+     
   );
 }
 
