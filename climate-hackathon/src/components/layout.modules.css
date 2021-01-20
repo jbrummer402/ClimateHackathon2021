@@ -1,0 +1,8 @@
+.container {
+  max-width: 100rem;
+  padding: 0 1rem;
+  line-height: 3rem;
+  margin: 1rem auto 6rem;
+  align-items: center;
+  text-align: center;
+}
