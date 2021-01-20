@@ -13,7 +13,14 @@ function CompanyProfile(){
                 <input type="text" name="businessName" />
             </form>
             <form>
-                What is your type of business?
+                <label>What is your type of business?
+                <br />
+                <select>
+                    <option value="restaurant">Restaurant</option>
+                    <option value="other">Other</option>
+                    <option value="other2">Other</option>
+                </select>
+                </label>
             </form>
             <form>
                 <p /> What will be the business's admin email?
