@@ -9,7 +9,7 @@ function CompanyProfile(){
         <div className="container" >
             <form>
                 <p /> What is the name of your business?
-                <br/ >
+                <br/>
                 <input type="text" name="businessName" />
             </form>
             <form>
@@ -23,18 +23,18 @@ function CompanyProfile(){
                 </label>
             </form>
             <form>
-                <p /> What will be the business's admin email?
-                <br/ >
+                <p/> What will be the business's admin email?
+                <br/>
                 <input type="text" name="adminEmail" />
             </form>
             <form>
                 <p /> What is/are the name(s) of the business owner(s)?
-                <br/ >
+                <br/>
                 <input type="text" name="ownerName" />
             </form>
             <form>
                 <p /> Please provide a phone number for this business.
-                <br/ >
+                <br/>
                 <input type="text" name="phoneNumber" />
             </form>
         </div>
