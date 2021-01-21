@@ -28,6 +28,14 @@ function CompanyAddress(){
                 <select>
                 </select>
             </form>
+            <form>
+                <p /> City
+                <input type="text" name="city" />
+            </form>
+            <form>
+                <p /> Zip
+                <input type="text" name="zip" />
+            </form>
         </div>
     )
 }
