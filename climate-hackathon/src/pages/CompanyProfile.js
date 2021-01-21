@@ -1,6 +1,10 @@
-import Head from 'next/head';
-import Link from 'next/link';
+//import Head from 'next/head';
+//import Link from 'next/link';
 import React, { useState } from 'react';
+<<<<<<< HEAD
+=======
+//import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+>>>>>>> 25e718535bcf86a55ec30d62ad0984fa3e707532
 import styles from '../components/layout.modules.css';
 
 function CompanyProfile(){
@@ -8,7 +12,7 @@ function CompanyProfile(){
         <div className="container" >
             <form>
                 <p /> What is the name of your business?
-                <br/ >
+                <br/>
                 <input type="text" name="businessName" />
             </form>
             <form>
@@ -22,18 +26,18 @@ function CompanyProfile(){
                 </label>
             </form>
             <form>
-                <p /> What will be the business's admin email?
-                <br/ >
+                <p/> What will be the business's admin email?
+                <br/>
                 <input type="text" name="adminEmail" />
             </form>
             <form>
                 <p /> What is/are the name(s) of the business owner(s)?
-                <br/ >
+                <br/>
                 <input type="text" name="ownerName" />
             </form>
             <form>
                 <p /> Please provide a phone number for this business.
-                <br/ >
+                <br/>
                 <input type="text" name="phoneNumber" />
             </form>
         </div>
