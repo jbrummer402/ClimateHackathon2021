@@ -1,10 +1,9 @@
 //import Head from 'next/head';
 //import Link from 'next/link';
 import React, { useState } from 'react';
-<<<<<<< HEAD
-=======
+
 //import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
->>>>>>> 25e718535bcf86a55ec30d62ad0984fa3e707532
+
 import styles from '../components/layout.modules.css';
 
 function CompanyProfile(){
